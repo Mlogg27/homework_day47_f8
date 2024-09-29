@@ -1,0 +1,25 @@
+table {
+  width: 90vw;
+  text-align: center;
+}
+.container-content {
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  row-gap: 30px;
+  flex-direction: column;
+}
+.user-form {
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.user-form input {
+  outline: none;
+  height: 40px;
+}
+.user-form select {
+  height: 40px;
+}
